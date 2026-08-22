@@ -8,7 +8,6 @@ from datetime import datetime
 from io import BytesIO
 
 from pyrogram import Client, filters, raw, idle
-from pyrogram.session import StringSession
 import pyrogram.utils as pyrogram_utils
 from pyrogram.enums import PollType, ChatType, ChatMemberStatus
 from pyrogram.errors import FloodWait
